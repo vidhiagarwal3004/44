@@ -104,10 +104,11 @@ function draw() {
     bananagrp.setLifetimeEach(-1);
   }
  }
+  drawSprites();
   textSize(20);
   fill("black");
   text("Score: " + score ,30,50);
-  drawSprites();
+  
 }
 function object()
 {
