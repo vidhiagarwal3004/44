@@ -43,9 +43,7 @@ function draw() {
   background(0);
    
 
-  textSize(20);
-  fill("black");
-  text("Score: " + score ,30,50);
+  
   
   if(gameState===PLAY){
      
@@ -106,7 +104,9 @@ function draw() {
     bananagrp.setLifetimeEach(-1);
   }
  }
-  
+  textSize(20);
+  fill("black");
+  text("Score: " + score ,30,50);
   drawSprites();
 }
 function object()
